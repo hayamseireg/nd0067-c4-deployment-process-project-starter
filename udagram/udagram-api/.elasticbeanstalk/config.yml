@@ -1,6 +1,8 @@
 branch-defaults:
   default:
     environment: Udagramapi-env
+deploy:
+  artifact: Archive.zip
 environment-defaults:
   Udagramapi-env:
     branch: null
@@ -17,3 +19,4 @@ global:
   profile: null
   sc: null
   workspace_type: Application
+    
