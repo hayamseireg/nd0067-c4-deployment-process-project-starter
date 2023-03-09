@@ -29,7 +29,7 @@ import { config } from "./config/config";
   
   console.log("system configuration settings");
   console.log(config);
-  const port = config.application_port;
+  const port = config.port;
 
   app.use(bodyParser.json());
 

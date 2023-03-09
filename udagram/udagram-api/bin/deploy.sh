@@ -1,7 +1,7 @@
 cd www
 eb init udagram-api --platform node.js --region us-east-1
 eb deploy
-eb set APPLICATION_PORT = $APPLICATION_PORT
+eb set PORT = $PORT
 eb set AWS_ACCESS_KEY_ID = $AWS_ACCESS_KEY_ID
 eb set AWS_BUCKET = $AWS_BUCKET
 eb set AWS_DEFAULT_REGION = $AWS_DEFAULT_REGION
