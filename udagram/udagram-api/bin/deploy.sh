@@ -1,5 +1,5 @@
 cd www
-eb init $EB_APP --platform node.js --region $AWS_REGION
+eb init udagram-api --platform node.js --region us-east-1
 eb deploy
 eb set APPLICATION_PORT = $APPLICATION_PORT
 eb set AWS_ACCESS_KEY_ID = $AWS_ACCESS_KEY_ID
