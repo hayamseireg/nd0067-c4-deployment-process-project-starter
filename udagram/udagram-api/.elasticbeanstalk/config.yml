@@ -2,7 +2,7 @@ branch-defaults:
   default:
     environment: Udagramapi-env
 deploy:
-  artifact: Archive.zip
+  artifact: www/Archive.zip
 environment-defaults:
   Udagramapi-env:
     branch: null
@@ -10,13 +10,13 @@ environment-defaults:
 global:
   application_name: udagram-api
   default_ec2_keyname: null
-  default_platform: Node.js 16
+  default_platform: Node.js 14
   default_region: us-east-1
   include_git_submodules: true
   instance_profile: null
   platform_name: null
   platform_version: null
-  profile: null
+  profile: default
   sc: null
   workspace_type: Application
-    
+
