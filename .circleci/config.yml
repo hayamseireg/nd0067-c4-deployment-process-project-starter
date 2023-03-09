@@ -31,7 +31,10 @@ jobs:
           name: Install API Dependencies
           command: |
            npm run api:install
-      
+      - run:
+          name: Front-End Lint
+          command: |
+           npm run frontend:lint
       - run:
           name: Front-End Build
           command: |
@@ -39,12 +42,7 @@ jobs:
       - run:
           name: API Build
           command: |
-           npm run api:build
-      - run:
-          name: Front-End Lint
-          command: |
-           npm run frontend:lint
-
+           npm run api:build      
   deploy:
     docker:
       - image: "cimg/base:stable"
