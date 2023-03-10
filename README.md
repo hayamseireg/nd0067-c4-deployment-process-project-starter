@@ -1,4 +1,9 @@
 # Hosting a Full-Stack Application
+The url for the application (frontend) http://hayam2023.s3-website-us-east-1.amazonaws.com/
+The url for the backend http://udagram-api2.us-east-1.elasticbeanstalk.com/
+
+please check the screenshot folder
+please check the doc folder
 
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
